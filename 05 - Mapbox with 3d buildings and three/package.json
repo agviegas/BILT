@@ -1,0 +1,27 @@
+{
+  "name": "bilt",
+  "version": "1.0.0",
+  "description": "Creating a 3D GIS + BIM app in 75 minutes!",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agviegas/BILT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agviegas/BILT/issues"
+  },
+  "homepage": "https://github.com/agviegas/BILT#readme",
+  "dependencies": {
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^2.79.1"
+  }
+}
